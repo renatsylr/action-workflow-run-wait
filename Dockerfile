@@ -4,7 +4,7 @@ LABEL com.github.actions.name="GitHub Action: Workflow Run Wait" \
       com.github.actions.description="wait for all `workflow_run` required workflows to be successful" \
       com.github.actions.icon="clock" \
       com.github.actions.color="blue" \
-      maintainer="Ahmad Nassri <ahmad@ahmadnassri.com>"
+      maintainer="Taner <renatsylr@gmail.com>"
 
 RUN mkdir /action
 WORKDIR /action
