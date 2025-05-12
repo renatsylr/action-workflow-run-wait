@@ -11,6 +11,19 @@ import workflows from './workflows.js'
 // sleep function
 const sleep = ms => new Promise(resolve => setTimeout(resolve, ms))
 
+/* eslint-disable camelcase */
+
+// packages
+import core from '@actions/core'
+import github from '@actions/github'
+import deduplicate from './deduplicate.js'
+
+import runs from './runs.js'
+import workflows from './workflows.js'
+
+// sleep function
+const sleep = ms => new Promise(resolve => setTimeout(resolve, ms))
+
 export default async function ({ token, delay, timeout, sha, ignore }) {
   let timer = 0
 
