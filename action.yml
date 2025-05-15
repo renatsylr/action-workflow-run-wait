@@ -28,4 +28,4 @@ inputs:
 
 runs:
   using: docker
-  image: docker://ghcr.io/renatsylr/action-workflow-run-wait
+  image: docker://tanersylr/action-run-wait:latest
