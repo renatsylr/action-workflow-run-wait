@@ -23,7 +23,7 @@ const inputs = {
 
 // error handler
 function errorHandler({ message, stack }) {
-  core.error(${message}\n${stack})
+  core.error('${message}\n${stack}');
   process.exit(1)
 }
 
