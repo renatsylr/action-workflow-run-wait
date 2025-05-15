@@ -28,4 +28,4 @@ inputs:
 
 runs:
   using: docker
-  image: docker://tanersylr/action-run-wait:latest
+  image: docker.io://tanersylr/action-run-wait:latest
